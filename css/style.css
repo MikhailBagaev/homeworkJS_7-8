@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;	
+}
+body {
+	font-family: sans-serif;		
+}
+.wrapper {
+	width: 600px;
+	margin: 40px auto;	
+}
+.window,
+form {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 2px 2px 0px 0px #909090;
+}
+form {
+	margin-top: 20px;
+	padding: 20px;
+}
+form {
+	padding-bottom: 0;
+}
+.tabs {
+	background: #eee;
+	padding-top: 5px;
+	margin: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+li {
+	list-style: none;
+	display: inline-block;
+	width: 160px;
+	height: 40px;	
+	background: #fff;
+	border: 1px solid #ccc;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom: none;	
+}
+li:first-child {
+	margin-left: 5px;
+}
+li:hover {
+	background: #eee;	
+}
+a {
+	text-align: center;	
+	text-decoration: none;
+	color: #555;
+	font-weight: bold;
+	display: block;
+	padding: 11px 20px;	
+}
+p {
+	padding: 20px;	
+}
+.opacity p {
+	opacity: 0;
+}
+a.selected,
+a.selected:hover {
+	background: blue;
+	color: #fff;
+}
+.wrapper div.text{
+	display: none;
+}
+.wrapper div.selected {
+	display: block;
+}
+form div {
+	margin-bottom: 20px;
+}
+label {
+	padding-right: 20px;
+}
+form div:last-child label {
+	padding-right: 31px;
+}
+input {
+	border-radius: 5px;
+	padding: 2px 5px;
+}
+button {
+	font-size: 18px;
+	padding: 2px 5px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+form span {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: #eee;
+	padding: 2px 5px;	
+	display: none;	
+}
