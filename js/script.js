@@ -13,7 +13,15 @@ $(function() {
     $input.hover(function() {
     	var $span = $(this).siblings('span');
     	$span.toggle();
-    }); 	   	
+    });    
+    $input.on('focus', function() {
+        var $span = $(this).siblings('span');
+        $span.show();
+    });    
+    $input.on('focusout', function() {
+        var $span = $(this).siblings('span');
+        $span.hide();
+    });  
     var $button = $('button');
         $button.on('click', function() {
         var $span = $('.wrapper span');
